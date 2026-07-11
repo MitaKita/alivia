@@ -8,12 +8,12 @@ export const EditorialGallery: React.FC = () => {
         {/* Gallery Header mimicking an art exhibition catalog */}
         <div className="border-b border-zinc-800 pb-8 mb-16 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
           <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-rose-600 mb-2">Selected Shadows</p>
-            <h2 className="text-4xl font-light tracking-tight sm:text-5xl font-serif text-rose-600">
+            <p className="text-xs uppercase tracking-[0.3em] text-white hover:text-rose-600 mb-2">Selected Shadows</p>
+            <h2 className="text-4xl font-light tracking-tight sm:text-5xl font-serif text-white hover:text-rose-600">
               Dark Artistry
             </h2>
           </div>
-          <p className="text-sm text-rose-600 max-w-xs font-light leading-relaxed">
+          <p className="text-sm text-white hover:text-rose-600 max-w-xs font-light leading-relaxed">
             A curated look at form, shadow, and subversion. Exploring human features through a dark, romantic lens.
           </p>
         </div>
