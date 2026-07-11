@@ -23,7 +23,7 @@ export const EditorialGallery: React.FC = () => {
           {MAKEUP_PHOTOS.map((photo) => (
             <div
               key={photo.id}
-              className={`group relative overflow-hidden bg-zinc-900 border border-zinc-900/50 grayscale hover:grayscale-0 active:grayscale-0 transition-all duration-700 ease-out ${photo.gridClass}`}
+              className={`group relative overflow-hidden bg-zinc-900 border border-zinc-900/50 md:grayscale md:hover:grayscale-0 transition-all duration-700 ease-out ${photo.gridClass}`}
             >
               {/* Image Container with smooth scale on hover */}
               <div className="w-full h-full overflow-hidden">
